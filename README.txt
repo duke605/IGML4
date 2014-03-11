@@ -1,0 +1,3 @@
+This is the source code for IGML4, remember that all of this source is applicable to the copyright in my mod page:
+
+These mods (plugins, patches to Minecraft source, henceforth "Mods" or "The Mods"), by the terms of https://account.mojang.com/terms are sole property of the Mod author (Duke605, henceforth "Owner" or "The Owner"). By default they may only be distributed on minecraftforums.net, duke605.x10.mx, or mods.io. They may only be mirrored or reposted with advance written permission of the Owner. URL shorteners or other attempts to make money off The Owner's Mods are strictly forbidden without advance written permission.
