@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "3.0.0.3"
+version = "4.0.0.7"
 group= "duke605.igml4" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "IGML4"
 
 minecraft {
-    version = "1.7.2-10.12.0.1039"
+    version = "1.7.2-10.12.0.1041"
     assetDir = "eclipse/assets"
 }
 processResources

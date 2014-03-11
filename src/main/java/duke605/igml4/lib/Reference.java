@@ -5,7 +5,8 @@ public class Reference {
 	// Mod Attributes
 	public static final String MODID = "IGML4";
 	public static final String NAME = "IGML4";
-	public static final String VERSION = "3.0.0.3";
+	public static final String VERSION = "4.0.0.7";
+	public static final String DEPENDENCIES = "required-after:Forge@[10.12.0.1041,)";
 	
 	// Modlist URLs
 	public static final String JSON_URL = "http://modlist.mcf.li/api/v3/all.json";
