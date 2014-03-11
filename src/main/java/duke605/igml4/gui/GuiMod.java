@@ -2,6 +2,8 @@ package duke605.igml4.gui;
 
 import java.util.Arrays;
 
+import org.lwjgl.input.Keyboard;
+
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import duke605.igml4.gui.component.GuiUnicodeButton;
@@ -50,7 +52,7 @@ public class GuiMod extends GuiScreen {
 		super.drawScreen(mouseX, mouseY, noIdea);
 	}
 	
-	protected void actionPerformed(GuiButton b) {
+	public void actionPerformed(GuiButton b) {
 		 int id = b.id;
 		 
 		 // Returns to the modlist gui
@@ -66,5 +68,14 @@ public class GuiMod extends GuiScreen {
 		 // Opens browser to mod source
 		 else if (id == 2)
 			 MiscUtils.openSite(mod.source);
+	}
+	
+	public void keyTyped(char c, int keyCode) {
+		
+		// Returns to the modlist gui
+	    if (keyCode == Keyboard.KEY_ESCAPE) {
+	    	 mc.displayGuiScreen(parentGui);
+			 parentGui.enableRepeats();
+	    }
 	}
 }

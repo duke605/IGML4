@@ -114,6 +114,10 @@ public class GuiModList extends GuiScreen {
 			 IGML4.showDetails = !IGML4.showDetails;
 			 initGui();
 		 }
+		 
+		 // Showing help gui
+		 else if (b.id == -2)
+			 mc.displayGuiScreen(new GuiHelp(this));
 	}
 	
 	public void handleMouseInput() {

@@ -150,6 +150,14 @@ ClientBin/
 *.[Pp]ublish.xml
 *.pfx
 *.publishsettings
+.gradle/
+gradle/
+build/
+eclipse/
+bin/
+gradlew.bat
+gradlew
+
 
 # RIA/Silverlight projects
 Generated_Code/
